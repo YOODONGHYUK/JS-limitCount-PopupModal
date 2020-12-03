@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>limitCount-popupModal</title>
+    
+    <meta name="author" content="ydh DPRSTLL">
+    <meta name="description" content="limit the number to five and popup a modal">
+
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="body__container">
+        <!-- COUNTER -->
+        <section class="section section--counter">
+            <div class="number">0</div>
+
+            <div class="btn-group">
+                <button class="btn btn--increase">+</button>
+                <button class="btn btn--decrease">-</button>
+            </div>
+        </section>
+
+        <!-- MODAL -->
+        <div class="modal-wrapper" style="display: none;">
+            <div class="modal">
+                <h2 class="modal__title">Warning</h2>
+                <p class="modal__descripiton">You can only buy up to 5 pieces.</p>
+                <div class="btn-wrapper">
+                    <button id="btn btn--close">close</button>            
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
