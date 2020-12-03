@@ -1,0 +1,38 @@
+.body__container {
+    font-family: sans-serif;
+}
+
+.section--counter{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 200px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--counter .counter-group {
+    display: flex;
+    border: 1px solid #ced4da;
+    /* btn(w-35)*2 + num(w-50) = 120 */
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    
+}
+
+.section--counter .counter-group .btn {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: #dee2e6;
+    font-size: 25px;
+}
+
+.section--counter .counter-group .number {
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
